@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Music - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home">
+            <!-- <div class="home bg-grey"> -->
+                <div class="logo"><img class='invert' src="logo.svg" alt=""></div>
+                <ul>
+                    <li><img class='invert' src="home.svg" alt="home">Home</li>
+                    <li><img class='invert' src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <!-- <div class="library bg-grey"> -->
+            <div class="library">
+                <div class="heading">
+                    <img class='invert' src="playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img src="music.svg" class="invert" alt="">
+                            <div class="info">
+                                <div class="">song name</div>
+                                <div class="">song artist</div>
+                            </div>
+                            <img id="songListPlayImage" src="play.svg" alt="" class="invert">
+                            <div id="songListPlayText" class="">
+                                Play
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/" id="" class="" data-encore-id="textLink">
+                        <span data-encore-id="type">Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/privacy/" id="" class="" data-encore-id="textLink">
+                        <span data-encore-id="type">Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="" class="" data-encore-id="textLink">
+                        <span data-encore-id="type">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="" class="" data-encore-id="textLink">
+                        <span data-encore-id="type">Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="" class="" data-encore-id="textLink">
+                        <span data-encore-id="type">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" id="" class="" data-encore-id="textLink">
+                        <span data-encore-id="type">Accessibility</span>
+                        </a>
+                    </div>      
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header"> 
+                 <div class="nav">
+                   <i class="fa fa-angle-left" style="font-size:30px"></i>
+                    <i class="fa fa-angle-right" style="font-size:30px"></i>
+                </div>
+                <div class="buttons">
+                    <button class="signUpButton">Signup</button>
+                <button class="loginButton">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>
+                    Spotify Playlists
+                </h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa fa-play-circle" style="font-size:36px;color: rgb(0, 255, 0);"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nisi.</p>
+
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa fa-play-circle" style="font-size:36px;color: rgb(0, 255, 0);"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nisi.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="songInfo">
+
+                </div>
+                <div class="songButtons">
+                    <img src="prevsong.svg" alt="">
+                    <img id='playButton' src="play.svg" alt="">
+                    <img src="nextsong.svg" alt="">
+                </div>
+                <div class="songTime">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
